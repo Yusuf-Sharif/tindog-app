@@ -1,0 +1,227 @@
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Poppins';
+  background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* Typography */
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+
+  margin: 0;
+
+
+
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  
+ 
+
+
+  color: #B7B7B7;
+}
+
+
+/* Layout */
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.wrapper {
+  width: 500px;
+
+  /* border: 5px solid green; */
+
+  justify-content: space-around;
+
+  margin: 0 auto;
+}
+
+.section-1 {
+  /* border: 5px solid blue; */
+  margin: 1em;
+}
+
+.div-icons {
+
+  /* border: 5px solid purple; */
+  justify-content: space-between;
+  width: 72%;
+  margin: 0 auto;
+
+}
+
+.img-icon-profile {
+
+    width: 32px;
+
+
+}
+
+.div-paw-icon {
+  width: 80px;
+  border-radius: 30px;
+  background: green;
+  background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
+
+  justify-content: center;
+}
+
+.img-icon-paw {
+  width: 20px;
+  margin: 0 auto;
+  filter: brightness(0) invert(1);
+
+}
+
+.img-icon-chat {
+  width: 34px;
+
+
+}
+
+.section-2 {
+  /* border: 2px solid pink; */
+  height: 500px;
+
+  margin-bottom: 1.5em;
+}
+
+.div-msg {
+  position: relative;
+}
+
+.img-msg {
+  width: 180px;
+  position: absolute;
+  left: 5em;
+  top: 1.6em;
+  transform: rotate(-19deg);
+}
+
+#img-like-msg {
+  display: none;
+
+  
+}
+
+#img-nope-msg {
+  display: none;
+}
+
+
+
+.profile-image {
+
+  margin: 0 auto;
+  width: 72%;
+
+  /* border: 2px solid yellow; */
+
+}
+
+.profile-meta-data {
+  /* border: 3px solid orange; */
+  position: relative;
+  bottom: 100px;
+  left: 85px;
+  max-width: 330px;
+}
+
+
+
+
+
+.div-parent-state-btns {
+  width: 200px;
+
+  /* border: 5px solid grey; */
+  justify-content: space-around;
+
+  margin: 0 auto;
+
+  margin-bottom: 1.5em;
+
+}
+
+.div-state-btn-cross {
+  width: 70px;
+  height: 70px;
+  background: #FFFFFF;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0px 0px 7px grey;
+
+  transition: .5s;
+
+}
+
+.div-state-btn-heart {
+  width: 70px;
+  height: 70px;
+  background: #FFFFFF;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0px 0px 7px grey;
+
+  transition: .2s;
+
+}
+
+.div-state-btn-cross:hover {
+  background: #FFE7EF;
+  transform: scale(1.05);
+}
+
+.div-state-btn-heart:hover {
+  background: #DBFFF4;
+  transform: scale(1.05);
+}
+
+
+
+.btn-cross-icon {
+  width: 30px;
+}
+
+.btn-heart-icon {
+  width: 36px;
+  color: linear-gradient(228.9deg, #00D894 10.21%, #56E9CD 71.53%);
+}
