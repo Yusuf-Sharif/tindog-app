@@ -1,9 +1,7 @@
 
-import {dogs} from '/data.js'
-import Dog from '/Dog.js'
+import {dogs} from '/modules/data.js'
+import Dog from '/modules/Dog.js'
 // import {render} from '/utils.js'
-
-
 
 const divCrossBtn = document.getElementById("div-cross-btn");
 const divHeartBtn = document.getElementById("div-heart-btn");
