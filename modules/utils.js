@@ -1,20 +1,17 @@
-// import {dogsArray} from '/data.js'
-// import {section2} from '/index.js'
-// import Dog from '/Dog.js'
-// import {Rex} from '/index.js'
-// import {Bella} from '/index.js'
-// import {Teddy} from '/index.js'
-// import {dogs} from '/data.js'
+import Dog from '/modules/Dog.js';
 
-import User from '/User.js'
+const render = () => {
 
-import {logInputValues} from '/signUp.js'
+    const nextDog = new Dog;
+    console.log( nextDog )
 
+    // = new Dog( dogsArray.shift() )
+
+    
 
 
 
-// const render = () => {
-//     dogsArray.shift();
+
 
 //     if (dogsArray.length === 3) {
 //         section2.innerHTML = Rex.getProfileHtml()
@@ -29,23 +26,8 @@ import {logInputValues} from '/signUp.js'
 
 //         section2.innerHTML = Teddy.getProfileHtml()
 //      }
-//     }
+    }
 
 
+export {render}
 
-
-    // const getChatsHtml = () => {
-    //     logInputValues();
-
-    //     const chats = new Array(newUserProfile.numberOfFriends)
-
-    //     console.log(chats)
-    // }
-
-    
-
-
-
-export {}
-
-// export {render}

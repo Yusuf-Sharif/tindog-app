@@ -1,7 +1,10 @@
 
 import {dogs} from '/modules/data.js'
 import Dog from '/modules/Dog.js'
-// import {render} from '/utils.js'
+import {render} from '/modules/utils.js'
+
+
+render()
 
 const divCrossBtn = document.getElementById("div-cross-btn");
 const divHeartBtn = document.getElementById("div-heart-btn");
@@ -54,4 +57,4 @@ export {section2, Rex, Bella, Teddy}
 
 section2.innerHTML = Rex.getProfileHtml();
 
-console.log(Rex.getProfileHtml())
+// console.log(Rex.getProfileHtml())

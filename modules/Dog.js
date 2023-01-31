@@ -13,7 +13,7 @@ class Dog {
 
     // Methods
     getProfileHtml() {
-      const { name, avatar, age, bio, hasBeenSwiped, hasBeenLiked } = this;
+      const { name, avatar, age, bio } = this;
       
 
       return `
@@ -26,7 +26,7 @@ class Dog {
       <img src="${avatar}" alt="profile picture" class="profile-image">
 
       <div class="profile-meta-data">
-        <h3>${this.name}, ${age}</h3>
+        <h3>${name}, ${age}</h3>
         <p>${bio}</p>
       </div>
       `
