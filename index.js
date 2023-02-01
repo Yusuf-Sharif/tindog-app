@@ -5,6 +5,7 @@ import {render} from '/modules/utils.js'
 
 const nopeBtn = document.getElementsByClassName("nope-button")[0];
 const likeBtn = document.getElementsByClassName("like-button")[0];
+
 const imgNopeMsg = document.getElementById("img-nope-msg");
 const imgLikeMsg = document.getElementById("img-like-msg");
 const section2 = document.getElementsByClassName("section-2")[0]
