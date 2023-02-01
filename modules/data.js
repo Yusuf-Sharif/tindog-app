@@ -1,6 +1,3 @@
-
-let dogsArray = ["Rex", "Bella", "Teddy"]
-
 const dogs = [
     {
         name: "Rex",
@@ -27,6 +24,5 @@ const dogs = [
     }
 ]
 
-export {dogs, dogsArray};
+export {dogs};
 
-// Remember to export the data!

@@ -1,7 +1,3 @@
-
-
-
-
 class Dog {
 
     constructor(data) {
@@ -35,17 +31,3 @@ class Dog {
 }
 
 export default Dog;
-
-
-        // <div class ="div-msg">
-        //   <img src="images/nope-image.png" alt="nope image" class="img-msg" id="img-nope-msg">
-        //   <img src="images/like-image.png" alt="like image" class="img-msg" id="img-like-msg">
-          
-        // </div>
-
-        // <img src="${avatar}" alt="profile picture" class="profile-image">
-
-        // <div class="profile-meta-data">
-        //   <h3>${this.name}, ${age}</h3>
-        //   <p>${bio}</p>
-        // </div>
