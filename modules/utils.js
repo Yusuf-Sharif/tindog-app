@@ -1,6 +1,5 @@
 import Dog from '/modules/Dog.js';
 import {dogs} from '/modules/data.js'
-import {dogsArray} from '/modules/data.js'
 import { section2 } from '/index.js';
 
 
