@@ -126,13 +126,11 @@ p {
   transform: rotate(-19deg);
 }
 
-#img-like-msg {
+#likeImageMessage {
   display: none;
-
-  
 }
 
-#img-nope-msg {
+#nopeImageMessage {
   display: none;
 }
 
@@ -215,13 +213,11 @@ p {
   transform: scale(1.05);
 }
 
-
-
-.btn-cross-icon {
+.nope-button-img {
   width: 30px;
 }
 
-.btn-heart-icon {
+.like-button-img {
   width: 36px;
   color: linear-gradient(228.9deg, #00D894 10.21%, #56E9CD 71.53%);
 }

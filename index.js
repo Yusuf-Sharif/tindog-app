@@ -6,8 +6,8 @@ import {render} from '/modules/utils.js'
 const nopeBtn = document.getElementsByClassName("nope-button")[0];
 const likeBtn = document.getElementsByClassName("like-button")[0];
 
-const imgNopeMsg = document.getElementById("img-nope-msg");
-const imgLikeMsg = document.getElementById("img-like-msg");
+const nopeImageMessage = document.getElementById("nopeImageMessage");
+const likeImageMessage = document.getElementById("likeImageMessage");
 const section2 = document.getElementsByClassName("section-2")[0]
 
 const displayMsg = msgId => {
@@ -17,7 +17,7 @@ const displayMsg = msgId => {
 
 
 nopeBtn.addEventListener("click", function() {
-  displayMsg("img-nope-msg");
+  displayMsg("nopeImageMessage");
 
   setTimeout( () => {
     render();
@@ -27,7 +27,7 @@ nopeBtn.addEventListener("click", function() {
 })
 
 likeBtn.addEventListener("click", () => {
-  displayMsg("img-like-msg");
+  displayMsg("likeImageMessage");
 
   setTimeout( () => {
     render();
