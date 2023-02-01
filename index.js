@@ -3,12 +3,11 @@ import {dogs} from '/modules/data.js'
 import Dog from '/modules/Dog.js'
 import {render} from '/modules/utils.js'
 
-const divCrossBtn = document.getElementById("div-cross-btn");
-const divHeartBtn = document.getElementById("div-heart-btn");
+const nopeBtn = document.getElementsByClassName("nope-button")[0];
+const likeBtn = document.getElementsByClassName("like-button")[0];
 
 const imgNopeMsg = document.getElementById("img-nope-msg");
 const imgLikeMsg = document.getElementById("img-like-msg");
-
 const section2 = document.getElementsByClassName("section-2")[0]
 
 const displayMsg = msgId => {
@@ -17,7 +16,7 @@ const displayMsg = msgId => {
 }
 
 
-divCrossBtn.addEventListener("click", function() {
+nopeBtn.addEventListener("click", function() {
   displayMsg("img-nope-msg");
 
   setTimeout( () => {
@@ -27,7 +26,7 @@ divCrossBtn.addEventListener("click", function() {
 
 })
 
-divHeartBtn.addEventListener("click", () => {
+likeBtn.addEventListener("click", () => {
   displayMsg("img-like-msg");
 
   setTimeout( () => {
